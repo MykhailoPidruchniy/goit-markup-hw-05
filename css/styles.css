@@ -702,7 +702,7 @@ margin: 0;
     resize: none;
 }
 
-input:focus .footer-icons {
+.form-icon:focus .form-input {
     fill: #4D5AE5;
 }
 
@@ -757,6 +757,8 @@ letter-spacing: 0.32px;
 }
 
 .form-agreement {
+    display: block;
+    margin-bottom: 24px;
     font-size: 12px;
     line-height: 1.17; 
     letter-spacing: 0.04em; 
@@ -774,6 +776,7 @@ letter-spacing: 0.32px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent; 
     cursor: pointer;
+    
 }
 
 .form-agreement-link {
