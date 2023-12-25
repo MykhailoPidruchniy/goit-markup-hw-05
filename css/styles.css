@@ -753,7 +753,7 @@ letter-spacing: 0.32px;
 }
 
 .label {
-    margin-bottom: 24px; 
+    margin-bottom: 16px; 
 }
 
 .form-agreement {
@@ -777,6 +777,7 @@ letter-spacing: 0.32px;
     border: 1px solid rgba(46, 47, 66, 0.4); 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+    fill: transparent;
 }
 
 .form-agreement-link {
