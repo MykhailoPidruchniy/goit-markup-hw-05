@@ -764,6 +764,9 @@ margin: 0;
     font-size: 12px;
 }
 
+.form-input:focus {
+    border-color: #4D5AE5;
+}
 
 .form-icon {
     position: absolute;
@@ -777,9 +780,9 @@ margin: 0;
 }
 
 .form-input:focus + .form-icon {
-    fill: #4d5ae5;
-    stroke: #4d5ae5;
-  }
+  fill: #4d5ae5;
+  stroke: #4d5ae5;
+}
 
 .coment-area {
     width: 360px;
